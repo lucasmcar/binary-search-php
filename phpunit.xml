@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit bootstrap="vendor/autoload.php" colors="true" stopOnFailure="false">
+    <testsuites>
+        <testsuite name="buscador">
+            <directory suffix=".php">tests/</directory>
+        </testsuite>
+    </testsuites>
+    <logging>
+        <junit outputFile="tests/build/report.junit.xml"/>
+        <testdoxHtml outputFile="tests/build/coverage.html" />
+        <testdoxText outputFile="tests/build/coverage.txt"/>
+        
+    </logging>
+</phpunit>

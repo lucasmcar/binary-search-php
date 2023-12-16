@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CLI Arguments" tests="7" assertions="6" errors="0" failures="0" skipped="0" time="11.998124">
+    <testsuite name="BuscadorTest" file="C:\laragon\www\ordenador\tests\BuscadorTest.php" tests="5" assertions="5" errors="0" failures="0" skipped="0" time="10.693132">
+      <testcase name="testVerifyIfMethodNotExists" file="C:\laragon\www\ordenador\tests\BuscadorTest.php" line="9" class="BuscadorTest" classname="BuscadorTest" assertions="1" time="6.922855"/>
+      <testcase name="testVerifyIfMethodExists" file="C:\laragon\www\ordenador\tests\BuscadorTest.php" line="18" class="BuscadorTest" classname="BuscadorTest" assertions="1" time="1.224562"/>
+      <testcase name="testVerifyIfValueNotExists" file="C:\laragon\www\ordenador\tests\BuscadorTest.php" line="27" class="BuscadorTest" classname="BuscadorTest" assertions="1" time="0.008332"/>
+      <testcase name="testVerifyIfValueExists" file="C:\laragon\www\ordenador\tests\BuscadorTest.php" line="35" class="BuscadorTest" classname="BuscadorTest" assertions="1" time="0.009535"/>
+      <testcase name="testVerifySearchValue" file="C:\laragon\www\ordenador\tests\BuscadorTest.php" line="43" class="BuscadorTest" classname="BuscadorTest" assertions="1" time="2.527848"/>
+    </testsuite>
+    <testsuite name="OrdenadorTest" file="C:\laragon\www\ordenador\tests\OrdenadorTest.php" tests="2" assertions="1" errors="0" failures="0" skipped="0" time="1.304992">
+      <testcase name="testVerifyIfParamIsArray" file="C:\laragon\www\ordenador\tests\OrdenadorTest.php" line="12" class="OrdenadorTest" classname="OrdenadorTest" assertions="1" time="1.297374"/>
+      <testcase name="testVerifyIfArrayIsOrdered" file="C:\laragon\www\ordenador\tests\OrdenadorTest.php" line="22" class="OrdenadorTest" classname="OrdenadorTest" assertions="0" time="0.007618"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

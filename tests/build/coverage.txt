@@ -1,0 +1,11 @@
+Buscador
+ [x] Verify if method not exists
+ [x] Verify if method exists
+ [x] Verify if value not exists
+ [x] Verify if value exists
+ [x] Verify search value
+
+Ordenador
+ [x] Verify if param is array
+ [ ] Verify if array is ordered
+
