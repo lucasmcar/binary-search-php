@@ -7,7 +7,6 @@ use Code\Ordenador\Ordenador;
 class Buscador
 {
 
-
     private $list;
     private $listaOrd;
 
@@ -24,26 +23,26 @@ class Buscador
         $middle = null;
         $el = $elementToFind;
         
-        $positions = [];
+        $positions = null;
 
         while($left < $right){
             $middle = floor(($left + $right)/2);
 
             if($orderedList[$middle] === $el){
-                $positions[] = $middle;
+                $positions = $middle;
             }
 
             if($orderedList[$middle] < $el){
                 $left = $middle + 1;
-                $positions[] = $left;
+                $positions = $left;
                 
             } else {
                 $right = $middle - 1;
-                $positions[] = $right;
+                $positions = $right;
             }
         }
 
-        return array('value' => $elementToFind, 'position' => array_unique($positions));
+        return array('value' => $elementToFind, 'position' => $positions);
        
     }
 
